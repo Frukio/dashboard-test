@@ -6,10 +6,35 @@ html(lang="en")
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
-    title Portfolio | main page
+    title Neolex-test
   body
     .wrapper
-      .maincontent
-        +image('content/user.jpg', 'user-pic')
-        +icon('link', 'link-class')
-        .icon-bg
+      header.header
+        .header__up
+          .header__left
+            .header__logo
+              +image('content/logo.png')
+            .header__user-interface
+              .header__img
+                +image('#')
+              .header__desc
+                .header__name Regina Cooper
+                .header__location Washington, DC, USA
+              .header__scroll-down
+                +icon('')
+          .header__right
+            .header__search
+              label.header__label
+                input.header__input
+
+
+          .header__right
+
+        .header__down
+
+      main.main
+
+
+      footer.footer
+
+
